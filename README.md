@@ -2,7 +2,10 @@
 
 A Python-based tool that tracks Manchester United's current winning streak and generates a dynamic JSON endpoint for Shields.io badges. 🔴⚪⚫
 
-![option 1](https://img.shields.io/endpoint?style=for-the-badge&url=https://raw.githubusercontent.com/aadilvagh/manutd-win-streak/main/badges/mu-streak.json)
+![option 1](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/aadilvagh/manutd-win-streak/main/badges/mu-streak.json)
+
+![option 2](https://img.shields.io/endpoint?style=for-the-badge&url=https://raw.githubusercontent.com/aadilvagh/manutd-win-streak/main/badges/mu-streak.json)
+
 
 ## About
 
