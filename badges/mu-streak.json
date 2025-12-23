@@ -2,5 +2,6 @@
   "schemaVersion": 1,
   "label": "Man Utd win streak",
   "message": "0 games \u2014 \ud83d\ude02\ud83d\ude02\ud83d\ude02",
-  "color": "lightgrey"
+  "color": "lightgrey",
+  "labelColor": "red"
 }
