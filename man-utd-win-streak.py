@@ -73,11 +73,21 @@ print(f"\nManchester United current win streak: {streak}")
 if first_break_reason:
     print(f"Streak broke due to a {first_break_reason} in the most recent sequence.")
 
+if streak == 0:
+    status = "😂😂😂"
+    color = "lightgrey"
+elif streak < 3:
+    status = "🥶🥶🥶"
+    color = "orange"
+else:
+    status = "🔥🔥🔥 AMORIMS RED ARMYYY"
+    color = "red"
+
 badge = {
     "schemaVersion": 1,
-    "label": "Man United",
-    "message": f"Win streak: {streak}",
-    "color": "red",
+    "label": "Man Utd win streak",
+    "message": f"{streak} games — {status}",
+    "color": color,
 }
 
 os.makedirs("badges", exist_ok=True)
