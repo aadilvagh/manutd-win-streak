@@ -78,7 +78,6 @@ badge = {
     "label": "Man United",
     "message": f"Win streak: {streak}",
     "color": "red",
-    "updated": datetime.now(timezone.utc).isoformat(),
 }
 
 os.makedirs("badges", exist_ok=True)
