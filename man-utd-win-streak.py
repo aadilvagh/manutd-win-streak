@@ -83,11 +83,11 @@ else:
     status = "🔥🔥🔥 AMORIMS RED ARMYYY"
     color = "red"
 
-badge = {
     "schemaVersion": 1,
     "label": "Man Utd win streak",
     "message": f"{streak} games — {status}",
     "color": color,
+    "labelColor": "red",
 }
 
 os.makedirs("badges", exist_ok=True)

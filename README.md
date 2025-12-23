@@ -29,7 +29,7 @@ The core logic is contained in a single Python script that performs the followin
 3.  **Determine Status**:
     - **Streak = 0**: 😂😂😂 (Grey) - *Rough times*
     - **Streak < 3**: 🥶🥶🥶 (Orange) - *Warming up*
-    - **Streak Result**: 🔥🔥🔥 AMORIMS RED ARMYYY (Red) - *We are so back*
+    - **Streak > 3**: 🔥🔥🔥 AMORIMS RED ARMYYY (Red) - *We are so back*
 4.  **Generate output**: Writes the result to `badges/mu-streak.json` in a format compatible with Shields.io Endpoint.
 
 ### The Automation (`.github/workflows/main.yml`)
