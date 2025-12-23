@@ -30,7 +30,7 @@ jobs:
         env:
           FD_API_KEY: ${{ secrets.FD_API_KEY }}
         run: |
-          python scripts/man-utd-win-streak.py
+          python man-utd-win-streak.py
 
       - name: Commit and push if changed
         run: |
